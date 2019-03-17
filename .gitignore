@@ -1,9 +1,4 @@
 
-27 lines (22 sloc) 270 Bytes
-/target/
-!.mvn/wrapper/maven-wrapper.jar
-
-
 ### STS ###
 .apt_generated
 .classpath
