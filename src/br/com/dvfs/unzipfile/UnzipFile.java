@@ -16,7 +16,7 @@ public class UnzipFile {
 		
 		byte[] fileZipByte = Files.readAllBytes(new File(fileZip).toPath());
 		
-		File destDir = new File("unzipTest");
+		File destDir = new File("/src/unzipTest");
 		
 		byte[] buffer = new byte[1024];
 		ZipInputStream zis = new ZipInputStream(new ByteArrayInputStream(fileZipByte));
